@@ -5,6 +5,9 @@
 * 모든 사각형(100개)에 대한 숫자를 구해야함 (지뢰를 별도 flag로 표기하지 말 것)
   * flag로 표시하고자 할 때는 `private static final boolean MINE_FLAG_MODE = true;` 로 값을 변경
   * 자기자신이 지뢰이더라도, 자신을 제외한 주변 8개 셀에 포함된 지뢰의 갯수로 표현
+  
+### 환경
+- JDK 8
 
 ### 출력
 `MINE_FLAG_MODE = false` \
