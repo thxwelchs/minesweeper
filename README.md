@@ -6,8 +6,12 @@
   * flag로 표시하고자 할 때는 `private static final boolean MINE_FLAG_MODE = true;` 로 값을 변경
   * 자기자신이 지뢰이더라도, 자신을 제외한 주변 8개 셀에 포함된 지뢰의 갯수로 표현
 
+### 출력
+`MINE_FLAG_MODE = false`
+![image](https://user-images.githubusercontent.com/38197077/88314831-7ad3cc80-cd50-11ea-9d3a-8d252cad6eec.png)
 
-
+`MINE_FLAG_MODE = true`
+![image](https://user-images.githubusercontent.com/38197077/88314878-8921e880-cd50-11ea-9130-8671aaa84c3e.png)
 
 ### 일관적인 지뢰 데이터 테스트
 
