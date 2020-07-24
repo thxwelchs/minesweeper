@@ -89,8 +89,8 @@ public class Land implements MineGenerator<Mine>, LandRenderer {
 
         int idx = 0;
         while(set.size() < mineCount) {
-            int x = MineGenerator.getRandomNumber(0, row - 1);
-            int y = MineGenerator.getRandomNumber(0, col - 1);
+            int x = MineGenerator.getRandomNumber(0, row);
+            int y = MineGenerator.getRandomNumber(0, col);
             Mine mine = new Mine(x, y);
             if(!set.contains(mine)) {
                 set.add(mine);
